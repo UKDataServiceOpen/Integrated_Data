@@ -353,6 +353,10 @@ filters:
 
 
 ## Integrated datasets  curated by UKDS
+- Examples
+  - Next Steps: Student Loans Data (SN8848) and Hospitalisation Episodes Data (SN8681)
+  - MCS: National Pupil Database (SN481) and Ofsted Reports (SN9436)-
+  - Vacancy Survey (SN7421)
  
 # 3. Overview of Data integration techniques and skills needs
 
@@ -414,13 +418,11 @@ filters:
 - Provides access to (mostly) health-related admin data
 - Enables data linkage between some of these to accredited researchers
 
-
-# 5. Who can link data and how?
-
-# 6. How to access linked data at UKDS
-
-## Condition and procedures of access - specifically for the  datasets mentioned in 2.
-
 ## References {.small}
 
 Whiffen, T; Akbari, A ; Paget, T ; Lowe, S; Lyons, R (2020) How effective are population health surveys for estimating prevalence of chronic conditions compared to anonymised clinical data?, INTERNATIONAL JOURNAL OF POPULATION DATA SCIENCE (IJPDS)  Vol 5:1 
+
+# 5. Who can link data and how? 
+
+# 6. How to access linked data at UKDS
+
