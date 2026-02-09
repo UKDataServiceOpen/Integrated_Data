@@ -269,7 +269,6 @@ Custom footer
 
   "... de-identified1 data from government service providers, excluding NHS data, as part of their day-to-day functions, may be shared for public good research"
 
-# Examples
 
 ## Hospital episodes data
 
@@ -419,12 +418,46 @@ Custom footer
 
 
 
-## Integrated datasets  curated by UKDS
-- Examples
-  - Next Steps: Student Loans Data (SN8848) and Hospitalisation Episodes Data (SN8681)
-  - MCS: National Pupil Database (SN481) and Ofsted Reports (SN9436)-
-  - Vacancy Survey (SN7421)
+# Integrated datasets  curated by UKDS
  
+## Next Steps: Student Loans Data
+- Data on higher education loans for Next Steps participant 
+
+  - who provided consent to linkage in the age 25 sweep. 
+  
+- Information about:
+
+  - Full Next Steps dataset + 
+  - applications for student finance,
+  - payment transactions posted to participant's accounts, 
+  - repayment details and 
+  - overseas assessment details.
+  
+   Hospitalisation Episodes Data (SN8681)
+
+## MCS: National Pupil Database {.smaller}
+- Data for children in England whose carer gave consent
+- Data from  National Pupil Database and the Pupil Level Annual School Census.
+
+  - Pupil level school census data from N1 to year 11 (2016/17)
+  - KS1, KS2, KS4 and KS5 results (Years 2, 6, 11, 12 and 13)
+  - Absence data from year 1 to year 11
+  - School characteristics and school changes: N1 to year 11
+  - Anonymised School identifiers (URN) and anonymised Local Education Authorities (LEA) 
+- Also available for Next Steps and Understanding Society
+
+  Ofsted Reports (SN9436)-
+
+## Vacancy Survey (SN7421)
+- Statutory, monthly survey of ~6,000 GB businesses
+- Single question:
+  - "How many job vacancies  for which  actively seeking recruits from outside their organisation?" 
+- Sample drawn from the Inter-Departmental Business Register (HMT, collected from VAT and PAYE registers)
+- Number of vacancies
+   - via linkage ISCO code (industrial activities classification), number of employees
+- Data available from 2005 to 2025
+-  Potential for additional linkage via IDBR
+
 # 3. Overview of Data integration techniques and skills needs
 
 ## Computational social science 
@@ -461,7 +494,7 @@ Custom footer
   - Neighbourhood geographies1
   - Address geographies2
 - Planned
-  -  NHS Wales
+  - NHS Wales
   - DWP
   - HMRC
 
@@ -486,11 +519,17 @@ Custom footer
 - Enables data linkage between some of these to accredited researchers
 
 ## References {.smaller}
+Millennium Cohort Study: Linked Education Administrative Datasets (National Pupil Database - KS1-KS5), England, 2003-2021: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/series/series/2000031)
+
+Next Steps: Linked Administrative Datasets (Student Loans Company Records), 2007 - 2021: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/studies/study/8848)
+
+Vacancy Survey, 2005-2025: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/studies/study/7421)
+
 Grant, P. (2024) [The Monitored Self In: The Virtual Hospital](https://doi.org/10.1007/978-3-031-69944-3_8) Springer, Cham.
 
 Silber, H., Breuer, J., Beuthner, C., Gummer, T., Keusch, F., Siegers, P., ... Weiß, B. (2022). [Linking Surveys and Digital Trace Data: Insights From two Studies on Determinants of Data Sharing Behaviour](https://doi.org/10.1111/rssa.12954) Journal of the Royal Statistical Society, Series A (Statistics in Society), 185(Suppl. 2), 387-407. 
 
-Whiffen, T; Akbari, A ; Paget, T ; Lowe, S; Lyons, R (2020) [How effective are population health surveys for estimating prevalence of chronic conditions compared to anonymised clinical data?](https://doi.org/10.23889/ijpds.v5i1.1151), INTERNATIONAL JOURNAL OF POPULATION DATA SCIENCE (IJPDS)  Vol 5:1 
+Whiffen, T; Akbari, A ; Paget, T ; Lowe, S; Lyons, R (2020) [How effective are population health surveys for estimating prevalence of chronic conditions compared to anonymised clinical data?](https://doi.org/10.23889/ijpds.v5i1.1151), International Journal of Population Data Science (IJPDS)  Vol 5:1 
 
 # 5. Data linkage at UKDS: roles, routes, and researcher options
 
