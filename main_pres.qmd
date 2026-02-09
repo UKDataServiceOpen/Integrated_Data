@@ -42,6 +42,8 @@ filters:
 
 ---
 
+
+
 # The UK Data Service
 
 
@@ -85,7 +87,12 @@ Custom footer
 - Business microdata and administrative data
 - [Qualitative data](https://discover.ukdataservice.ac.uk/QualiBank): multimedia files  and interview transcripts
 
-## Our training
+
+## 
+![](pics/training_l.png)
+
+
+## Our training in practice
 
 1. [Webinars and online workshops](ukdataservice.ac.uk/training-events)
 2. User Conferences: four main user conferences each year
@@ -94,60 +101,20 @@ Custom footer
 5. [Helpdesk](https://beta.ukdataservice.ac.uk/help) for individual data queries
 6. Check out our [YouTube channel](https://www.youtube.com/ukdataservice)
 
-## Test {.smaller}
-
-::::::{.columns}
-
-:::::{.column width="33%"}
-- Data management planning: sharing, archiving and preserving data​
-- Anonymisation and licence/access frameworks​
-- Documentation and metadata standards​
-- Ethical and legal considerations
-
-:::::
-
-:::::{.column width="33%"}
-- Data discovery​
-- How to access data​
-- Safe Researcher Training for the most confidential data 
-
-:::::
-
-:::::{.column width="33%"}
-- Introductions to datasets: ​
-- Datasets e.g Census, LFS​
-- Data types e.g Surveys​
-- Substantive themes e.g Crime​
-- Evaluating data for research ​
-- Preparing data/data handling​
-- Basic data analysis skills​
-- Basic software/tools​
-- Teaching with data​
-- User conferences​
-+ Computational Social Science​
-
-+ Reproducible research​
-
-:::::
-
-::::::
 
 
-# 2. Why a webinar series on data linkage?
+# 1. Why a webinar series on data linkage?
 
 ## Changing data landscape
 
 
-- Once upon a time: census and surveys (lots of them!)
-- Emerging kind of data in the past 20 years
-  1. Administrative data
-  2. Digital trace data (i.e. social media, web...)
-  3. Smart data
-
-  <!-- - ... -->
-
-- 2 and 3: genuinely new data 
-- 1: Digitalisation of records  $\longrightarrow$ greater availability
+- Once upon a time: mostly census and surveys (lots!)
+- Emerging / new kinds of data in the last 20 years
+    1. Administrative data
+    2. Digital trace data (i.e. social media, web...)
+    3. Smart data (i.e. flow, device generated)
+    - 2 and 3: genuinely new data 
+    - 1: Digitalisation of records  $\longrightarrow$ greater availability
 - Increased demand  for personal insights: [the Monitored Self](https://link.springer.com/chapter/10.1007/978-3-031-69944-3_8)
 - Potential for new research avenues at a lower cost... 
 
@@ -180,39 +147,27 @@ Custom footer
 
 - Only source for attitudes, beliefs, motivations, well-being
 - Rich socio-demographic information not captured elsewhere: detailed occupation, social class, ethnicity
-- Theory-driven measurements and validated instruments (ex: GHQ)
+- Theory-driven, validated instruments (ex: GHQ)
 - Only tested tool for population representative data, hard to reach groups and subgroup analysis
 
 
 ## Increasing number of  actors
-- Large data producers: CLS; ISER; ONS; government departments
+- Large academic data producers: CLS; ISER; ONS; NatCen
 - Linkage intermediaries: LLC, ADR, SAIL; SDR
 - Data curator: UKDS
 - Other consortiums: CLOSER
 - Government departments; health and education providers
 - $\longrightarrow$ not always easy for researchers and analysts to navigate the landscape
 
-## Skills needs {.smaller}
 
-- Blurring boundary between computational methods and survey research
-- Existing basic skills
-  - Individual and  aggregate merging
-
-- Managing new types of data
-  - Web/social media scrapping via API
-  - Data cleaning/processing
-  - Probability matching
-  - Inference and non random surveys
-- Navigating the increasingly complex  regulatory framework
-
-## Conclusion
+## Conclusion so far
 
 - Budgetary pressures on survey data
 - Wealth of cheaper, but narrowly focused, often unrepresentative new forms of data
-- Complexification of the data provision landscape: increased opacity for non experts
-- Need to  adapt the skills training/capacity building
 - Data integration enables validation and enhancement of both kinds of data  (Benzeval 2020)
+- Increased complexity of the data provision landscape: especially  for non experts
 - Linkage is still limited (but growing)  practice and few linked datasets are available for secondary research
+- Need to  adapt the skills training/capacity building
 
 
 
@@ -221,53 +176,56 @@ Custom footer
 ## Working definition {.smaller}
 
 - Combining different sources of data ie:
+
   - Survey data $\leftrightsquigarrow$ survey data
   - Survey data $\leftrightsquigarrow$ non survey data
   - Non survey data $\leftrightsquigarrow$  non survey data
-- That include  a shared unit of obsservation (individual, household, area...)
+- That includes  a shared unit of observation (individual, household, area...)
 - ... In a coherent way in order to:
   - Validate or 
   - .. enhance the original data
 - Bidirectional
+- In this presentation: linkage = integration
 
-## Validation  (Whiffen et al 2005) {.smaller}
+## Validation  example {.smaller}
 
-- Effectiveness of  population health surveys for estimating prevalence of chronic conditions
-- Reliability of survey-based prevalence estimates for chronic diseases is unclear 
-- Data linkage  to validate prevalence of selected chronic conditions:
-    - Angina, myocardial infarction, heart failure, and asthma.
+- How reliable are population survey-based  estimates of chronic diseases? 
+- Data linkage to validate prevalence of selected chronic conditions:
+    - Angina, myocardial infarction, heart failure, and asthma
 - Link 11,323 adults from the 2013 and 2014 Welsh Health Survey to clinical data
 - Secure Anonymised Information Linkage (SAIL) Databank
-- Results: depends on condition:
+- Results: quality depends on condition:
   - Less agreement for cardiovascular, better for asthma
   - Potentially cheaper
-  - Difficulty
+  - But not devoid of techncial difficulties
 
-## Enhancing surveys with social media data
+## Linking survey with digital trace data
 
 - Increasing usage of linked survey and social media data
-- Typical example: asking survey respondents to have their SM behaviour tracked
-- Potentially reduce the cost of the survey
+- Typical example: asking survey respondents to have their SM behaviour (digital trace) tracked
+- May  reduce the cost of the survey (fewer questions to ask)
 - Subject to consent: representativeness issues
-- Success depend on the app, gendeer, etc..
-- [DIGISURVOR]() project for an exemple of current research
+- Consent depend on the app, gender, etc..
+- [DIGISURVOR](https://digisurvor.github.io/main/) project for an exemple of current research
+  - Linkage of existing survey data with online participation in political discussions
+  
 
 
 # Kinds of data linked to survey data
 
 ## Administrative data {.smaller}
 - Usually arising from the interaction between:
-    - An organisation (typically  public body)...
+    - A public organisation or body...
     - ... the unit for which records are produced (ie people)
-- Birth or death certification, mortgage or benefits application, filing tax returns, going to the GP  or the A&E
 - Exemples:
   - Registry data: birth, death, marriage records, 
   - Health records, educational transcripts
   - Government records: benefits, earnings/income
-  - Financial reports 
-- In the UK: Digital Economy Act 2017:
+  - Financial reports ie credit ratings, mortgage application 
+  
+- In the UK: enabled Digital Economy Act 2017:
 
-  "... de-identified1 data from government service providers, excluding NHS data, as part of their day-to-day functions, may be shared for public good research"
+  "*... de-identified data from government service providers, excluding NHS data, as part of their day-to-day functions, may be shared for public good research*"
 
 
 ## Hospital episodes data
@@ -302,18 +260,15 @@ Custom footer
 
 ## NEST pension data
 
--  (National Employment Saving Trust)
-<!-- -   Main occupational (i.e. employer led) pensions scheme for UK employees -->
-
+-  National Employment Saving Trust ie ain occupational (i.e. employer led) pensions scheme for UK employees
 -   Covers 1,000,000 employers, 11 millions employees
-
--   Linked to consenting Understanding Wave 11 respondents (about 12,000)
-
 -   Data about:
 
     -   Employer and employee characteristics
     -   Current pension status
     -   Pension contributions characteristics
+
+
 
 ::: aside
 *More information:* [ISER (2023)](https://doc.ukdataservice.ac.uk/doc/9127/mrdoc/pdf/9127_user_guide.pdf)
@@ -321,27 +276,31 @@ Custom footer
 
 
 
-## Smart data
+## Smart data {.smaller}
 
 - Fuzzier definition
+  - Digital records held by private sector organisations
   - Measured data
   - Not traditionally associated with social research
-  - Flow/real time data
+  - Flow/ quasi real time data
+- Examples:
+   - Data from fitness trackers, smartwatches, loyalty cards, purchase records and in-car smart tech: health and mobility behaviiour    
+   - Financial transactions by  businesses and individuals < banks, supermarkets: financial behaviour and resilience
+   - Energy network data (distribution & consumption); EV usage and charging; smart meter readings: building/households energy consumptions; net zero targets
+
+
+## Bio measurement data
+
+- Measured as part large scale longitudinal surveys (often via nurse visit):
+
+  - Blood sample
+  - Epigenetic data
+  - Cortisol levels
   
-- Personal devices:
-    - Accelerometer
-    - Geolocation
-    - Photographic
-    
-- Energy, financial, shopping habits
-- Smart Data Research
+- Is this integrated data?
 
-## Bio measurement
-- Blood sample
-- Epigenetic data
-- Cortisol
 
-# Which survey data are most commonly  linked?
+# 3. Which survey data are most commonly  linked?
 
 ## Linked survey data: in theory
 
@@ -370,8 +329,8 @@ Custom footer
 
 ## Birth cohort studies
 
--   Follow a sample of individuals over their whole life
--   Born during  a specific period of 1958(NCDS), 1970(BCS), 2000 (MCS), 2026 (Generation New Era)
+-   Follow a sample of individuals from birth onwards
+- Four so far: people born in 1958(NCDS), 1970(BCS), 2000 (MCS), 2026 (Generation New Era)
 -   Millenium Cohort Study (MCS)
     -   \~ 19,000 children  (born between June 2001 and Jan 03)
     -   7 'sweeps': 9 months then at 3, 5, 7, 11, 14, years old
@@ -393,7 +352,7 @@ Custom footer
   - Started in 2002, biennial waves. 
   - Data on  physical and mental health (incl. well-being), financial circumstances, and attitudes about ageing.
 
-## Understanding Society (1)
+## Understanding Society
 
 -   Largest longitudinal study  of the UK population
 -   Initial sample size: 40K households, 100K individuals
@@ -401,24 +360,22 @@ Custom footer
 -   Ethnic minority boost samples, innovation panel
 -   Very wide range of topics covered:
 
-    -   Employment, income, benefits, savings, debt, and assets
-    -   Health, well-being, and health behaviours
-    -   Housing, housing costs, and dwelling characteristics
-
-## Understanding Society (2)
-
-- Further topics:
-
     -   Family, partnerships, caring responsibilities,
-    -   Education, training
     -   Expenditure, consumption, deprivation
     -   Social attitudes, values, political opinions
     -   Transport, mobility, and commuting patterns
     -   Environmental behaviours, and related attitudes
 
+## Annual Survey of Hours and Earnings (ASHE)
 
+- Produced by the Office for National Statistics
+- Large sample, drawn from NI records: 135,000-190,000 individuals per year
+- Small number of variables  
+- Very precise source of information for pay components and working hours
+- Can be linked to other business surveys, as well as  PAYE and pensions data
+- Some data available via  [Administrative Data Research UK](https://www.adruk.org/data-access/flagship-datasets/annual-survey-of-hours-and-earnings-linked-to-his-majestys-revenue-and-customs-england-scotland-and-wales/) 
 
-# Integrated datasets  curated by UKDS
+# Integrated datasets curated by UKDS
  
 ## Next Steps: Student Loans Data
 - Data on higher education loans for Next Steps participant 
@@ -448,67 +405,71 @@ Custom footer
 
   Ofsted Reports (SN9436)-
 
-## Vacancy Survey (SN7421)
+## Vacancy Survey 2005-2025
 - Statutory, monthly survey of ~6,000 GB businesses
 - Single question:
   - "How many job vacancies  for which  actively seeking recruits from outside their organisation?" 
 - Sample drawn from the Inter-Departmental Business Register (HMT, collected from VAT and PAYE registers)
-- Number of vacancies
-   - via linkage ISCO code (industrial activities classification), number of employees
-- Data available from 2005 to 2025
--  Potential for additional linkage via IDBR
+- Via linkage ISCO code (industrial activities classification), number of employees
+-  Additional linkage via IDBR possible - including ASHE 
 
-# 3. Overview of Data integration techniques and skills needs
 
-## Computational social science 
-- Web scrapping (Python/R)
-- API queries (X, Reddit...)
-- Pattern detection ie random forest
-- Data cleaning (Pandas, Tidyverse)
+# 4. Data integration and skills requirements
 
-## Data matching
-- Traditional merging:
+## Survey analysis skills
+- Traditional deterministic matching (ie merging)
   - The simplest case: individual level data matched to individual level data non ambiguous identifier
   - The same holds to aggregate level (for example smart sensor small area level matching)
 
-- Deterministic vs probabilistic matching
- - When separate ids
- - When data is not clean
+- Probabilistic matching
+   - When separate ids
+  - When data is not clean
+
+- Statistical inference & non random samples 
+
+## Computational skills 
+- Non-survey  cleaning (Pandas, Tidyverse)
+- Web scrapping (Python/R)
+- API queries (social media app: X, Reddit...)
+- Pattern detection ie random forest
+
+## Regulatory knowlege
+
+- Data protection & GDPR - rpe;requisite <- UKDS Safe researcher
+- Departmental regulations in case of Governmental data
+- Institutional/procedural: ie how to engage with the matching interface 
  
 # 4. Who's who in the data integration landscape
 
 ## Administrative Data Research (ADR) 
 - Consortium of organisations, including the ONS, devolved governments and academic partners
 - Mission: 
-  - "link...
-  - and open upde identified  data 
+  - "link and open up de-identified  data 
   - generated from people’s interactions with public services, 
   - making it securely available to accredited researchers.
 - Point of access for new data linkage within the  public sector and between the public sector and researchers  
 
-## UK LLC
+## UK Longitudinal Linking Consortium
 - Trusted Research Environment - TRE
 - Currently enables linkage between longitudinal studies and data from:
 
   - NHS England
-  - Neighbourhood geographies1
-  - Address geographies2
-- Planned
-  - NHS Wales
-  - DWP
-  - HMRC
+  - Neighbourhood geographies
+  - Address geographies
+
+- Planned: NHS Wales, Department for Work and Pensions, HM Revenue and Customs
 
 ## UKDS
- - Curation and access to survey data
+ - Collection, curation and access to linked survey data
  - Main gateway for secondary survey data analysis
  - Curates some linked data
+ - Trusted Research environment
 
 ## Data producers 
 - Data producers of the main longitudinal studies ie 
   - Understanding Society (ISER)
   - Main cohort studies (CLS)
 - Involved in data matching (ea consent management)
-- Need to be consulted when data is linked
 - Closer - coordination & cross studies harmonisation
 - Government departments and the ONS
 
@@ -518,27 +479,14 @@ Custom footer
 - Provides access to (mostly) health-related admin data
 - Enables data linkage between some of these to accredited researchers
 
-## References {.smaller}
-Millennium Cohort Study: Linked Education Administrative Datasets (National Pupil Database - KS1-KS5), England, 2003-2021: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/series/series/2000031)
 
-Next Steps: Linked Administrative Datasets (Student Loans Company Records), 2007 - 2021: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/studies/study/8848)
-
-Vacancy Survey, 2005-2025: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/studies/study/7421)
-
-Grant, P. (2024) [The Monitored Self In: The Virtual Hospital](https://doi.org/10.1007/978-3-031-69944-3_8) Springer, Cham.
-
-Silber, H., Breuer, J., Beuthner, C., Gummer, T., Keusch, F., Siegers, P., ... Weiß, B. (2022). [Linking Surveys and Digital Trace Data: Insights From two Studies on Determinants of Data Sharing Behaviour](https://doi.org/10.1111/rssa.12954) Journal of the Royal Statistical Society, Series A (Statistics in Society), 185(Suppl. 2), 387-407. 
-
-Whiffen, T; Akbari, A ; Paget, T ; Lowe, S; Lyons, R (2020) [How effective are population health surveys for estimating prevalence of chronic conditions compared to anonymised clinical data?](https://doi.org/10.23889/ijpds.v5i1.1151), International Journal of Population Data Science (IJPDS)  Vol 5:1 
-
-# 5. Data linkage at UKDS: roles, routes, and researcher options
+# 6. Data linkage at UKDS: roles, routes, and researcher options
 
 ## The UK Data Service and data linkage: <br> core principles
 
 - UKDS does not create linkages or integrate data
 - Linked data are created by data owners or processors
-- UKDS negotiates access to these data collections and makes them
-research-ready and safely accessible
+- UKDS negotiates access to these data collections and makes them research-ready and safely accessible
 - The type of linkage researchers can undertake depends on:
   - the access level (Open / Safeguarded / Controlled)
   - the presence or absence of identifiers
@@ -554,9 +502,25 @@ research-ready and safely accessible
 
 - Key considerations:
   - UKDS SecureLab does not host direct identifiers
-  - Researchers cannot create linkage spines or perform identifier-based
-matching​
+  - Researchers cannot create linkage spines or perform identifier-based matching​
   - All linkage activity must be explicitly approved as part of the project
 
-# 6. How to access linked data at UKDS
+# 7. How to access linked data at UKDS
 
+
+## References {.smaller}
+Millennium Cohort Study: Linked Education Administrative Datasets (National Pupil Database - KS1-KS5), England, 2003-2021: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/series/series/2000031)
+
+Next Steps: Linked Administrative Datasets (Student Loans Company Records), 2007 - 2021: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/studies/study/8848)
+
+Vacancy Survey, 2005-2025: [Secure Access](https://datacatalogue.ukdataservice.ac.uk/studies/study/7421)
+
+Grant, P. (2024) [The Monitored Self In: The Virtual Hospital](https://doi.org/10.1007/978-3-031-69944-3_8) Springer, Cham.
+
+Kerry- Barnard, S., Mohamad Zaki, N.H., Gomes, D., Ploubidis, G., Sanchez-Galvez, A. (2025) [National Child Development Study: A guide to the linked health administrative datasets – Hospital Episode Statistics (HES)](https://doc.ukdataservice.ac.uk/doc/8697/mrdoc/pdf/ncds_hes_user_guide_2025_v3.pdf). User Guide (Version 3). London: UCL Centre for Longitudinal Studies.
+
+Peters, A., Sanchez-Galvez, A., Fitzsimons, E., Gomes, D. (2025) [Millennium Cohort Study: Linked education administrative datasets-Ofsted User Guide (Version 1)](https://doc.ukdataservice.ac.uk/doc/9436/mrdoc/pdf/mcs_ofsted_user_guide_v1.pdf) London: UCL Centre for Longitudinal Studies.
+
+Silber, H., Breuer, J., Beuthner, C., Gummer, T., Keusch, F., Siegers, P., ... Weiß, B. (2022). [Linking Surveys and Digital Trace Data: Insights From two Studies on Determinants of Data Sharing Behaviour](https://doi.org/10.1111/rssa.12954) Journal of the Royal Statistical Society, Series A (Statistics in Society), 185(Suppl. 2), 387-407. 
+
+Whiffen, T; Akbari, A ; Paget, T ; Lowe, S; Lyons, R (2020) [How effective are population health surveys for estimating prevalence of chronic conditions compared to anonymised clinical data?](https://doi.org/10.23889/ijpds.v5i1.1151), International Journal of Population Data Science (IJPDS)  Vol 5:1 
