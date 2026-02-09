@@ -151,13 +151,13 @@ Custom footer
 - Only tested tool for population representative data, hard to reach groups and subgroup analysis
 
 
-## Increasing number of  actors
-- Large academic data producers: CLS; ISER; ONS; NatCen
-- Linkage intermediaries: LLC, ADR, SAIL; SDR
-- Data curator: UKDS
-- Other consortiums: CLOSER
-- Government departments; health and education providers
-- $\longrightarrow$ not always easy for researchers and analysts to navigate the landscape
+<!-- ## Increasing number of  actors -->
+<!-- - Large academic data producers: CLS; ISER; ONS; NatCen -->
+<!-- - Linkage intermediaries: LLC, ADR, SAIL; SDR -->
+<!-- - Data curator: UKDS -->
+<!-- - Other consortiums: CLOSER -->
+<!-- - Government departments; health and education providers -->
+<!-- - $\longrightarrow$ not always easy for researchers and analysts to navigate the landscape -->
 
 
 ## Conclusion so far
@@ -197,18 +197,8 @@ Custom footer
 - Results: quality depends on condition:
   - Less agreement for cardiovascular, better for asthma
   - Potentially cheaper
-  - But not devoid of techncial difficulties
+  - But not devoid of technical difficulties
 
-## Linking survey with digital trace data
-
-- Increasing usage of linked survey and social media data
-- Typical example: asking survey respondents to have their SM behaviour (digital trace) tracked
-- May  reduce the cost of the survey (fewer questions to ask)
-- Subject to consent: representativeness issues
-- Consent depend on the app, gender, etc..
-- [DIGISURVOR](https://digisurvor.github.io/main/) project for an exemple of current research
-  - Linkage of existing survey data with online participation in political discussions
-  
 
 
 # Kinds of data linked to survey data
@@ -241,39 +231,49 @@ Custom footer
 *More information*: [Kerry- Barnard et al (2025)](https://doc.ukdataservice.ac.uk/doc/8697/mrdoc/pdf/ncds_hes_user_guide_2025_v3.pdf)
 :::
 
-## School inspection data
+<!-- ## School inspection data -->
 
--   OFSTED 'State of the nation': anonymised data on latest schools inspections outcomes of 22,000 open schools
+<!-- -   OFSTED 'State of the nation': anonymised data on latest schools inspections outcomes of 22,000 open schools -->
 
--   Linked with the MCS, currently covers years 2005 to 2019
+<!-- -   Linked with the MCS, currently covers years 2005 to 2019 -->
 
--   Data on a wide range of topics i.e.:
+<!-- -   Data on a wide range of topics i.e.: -->
 
-    -   Quality of teaching, learning and assessment
-    -   Effectiveness of leadership and management
-    -   Pupils' achievement (aggregated) (2005-2015)
-    -   Behaviour and safety of pupils (2005-2015)
+<!--     -   Quality of teaching, learning and assessment -->
+<!--     -   Effectiveness of leadership and management -->
+<!--     -   Pupils' achievement (aggregated) (2005-2015) -->
+<!--     -   Behaviour and safety of pupils (2005-2015) -->
 
-::: aside
-*More information* [Peters A et al (2025)](https://doc.ukdataservice.ac.uk/doc/9436/mrdoc/pdf/mcs_ofsted_user_guide_v1.pdf)
-:::
+<!-- ::: aside -->
+<!-- *More information* [Peters A et al (2025)](https://doc.ukdataservice.ac.uk/doc/9436/mrdoc/pdf/mcs_ofsted_user_guide_v1.pdf) -->
+<!-- ::: -->
 
-## NEST pension data
+<!-- ## NEST pension data -->
 
--  National Employment Saving Trust ie ain occupational (i.e. employer led) pensions scheme for UK employees
--   Covers 1,000,000 employers, 11 millions employees
--   Data about:
+<!-- -  National Employment Saving Trust ie ain occupational (i.e. employer led) pensions scheme for UK employees -->
+<!-- -   Covers 1,000,000 employers, 11 millions employees -->
+<!-- -   Data about: -->
 
-    -   Employer and employee characteristics
-    -   Current pension status
-    -   Pension contributions characteristics
+<!--     -   Employer and employee characteristics -->
+<!--     -   Current pension status -->
+<!--     -   Pension contributions characteristics -->
 
 
 
-::: aside
-*More information:* [ISER (2023)](https://doc.ukdataservice.ac.uk/doc/9127/mrdoc/pdf/9127_user_guide.pdf)
-:::
+<!-- ::: aside -->
+<!-- *More information:* [ISER (2023)](https://doc.ukdataservice.ac.uk/doc/9127/mrdoc/pdf/9127_user_guide.pdf) -->
+<!-- ::: -->
 
+## Linking survey with digital trace data
+
+- Increasing usage of linked survey and social media data
+- Typical example: asking survey respondents to have their SM behaviour (digital trace) tracked
+- May  reduce the cost of the survey (fewer questions to ask)
+- Subject to consent: representativeness issues
+- Consent depend on the app, gender, etc..
+- [DIGISURVOR](https://digisurvor.github.io/main/) project for an exemple of current research
+  - Linkage of existing survey data with online participation in political discussions
+  
 
 
 ## Smart data {.smaller}
@@ -289,9 +289,10 @@ Custom footer
    - Energy network data (distribution & consumption); EV usage and charging; smart meter readings: building/households energy consumptions; net zero targets
 
 
-## Bio measurement data
 
-- Measured as part large scale longitudinal surveys (often via nurse visit):
+## (Bio measurement data)
+
+- Collected as part large scale longitudinal surveys (often via nurse visit):
 
   - Blood sample
   - Epigenetic data
@@ -302,17 +303,17 @@ Custom footer
 
 # 3. Which survey data are most commonly  linked?
 
-## Linked survey data: in theory
+<!-- ## Linked survey data: in theory -->
 
--   Depends on:
+<!-- -   Depends on: -->
 
-    -   The topic covered by the  data linked i.e. does it match common topics studied in surveys?
-    -   The survey itself (i.e. does it include the required linking information / user consent)
-    -   ... Scope of the surveys i.e. is linkage part of the original data collection,  or is it a subsequent project?
-    -   Means available from the data producer
+<!--     -   The topic covered by the  data linked i.e. does it match common topics studied in surveys? -->
+<!--     -   The survey itself (i.e. does it include the required linking information / user consent) -->
+<!--     -   ... Scope of the surveys i.e. is linkage part of the original data collection,  or is it a subsequent project? -->
+<!--     -   Means available from the data producer -->
 
 
-## ... And in practice
+## ... In practice
 
 -   Major longitudinal studies:
 
@@ -352,19 +353,19 @@ Custom footer
   - Started in 2002, biennial waves. 
   - Data on  physical and mental health (incl. well-being), financial circumstances, and attitudes about ageing.
 
-## Understanding Society
+<!-- ## Understanding Society -->
 
--   Largest longitudinal study  of the UK population
--   Initial sample size: 40K households, 100K individuals
--   14 waves so far: 2009-23. Includes BHPS data 1991-2009
--   Ethnic minority boost samples, innovation panel
--   Very wide range of topics covered:
+<!-- -   Largest longitudinal study  of the UK population -->
+<!-- -   Initial sample size: 40K households, 100K individuals -->
+<!-- -   14 waves so far: 2009-23. Includes BHPS data 1991-2009 -->
+<!-- -   Ethnic minority boost samples, innovation panel -->
+<!-- -   Very wide range of topics covered: -->
 
-    -   Family, partnerships, caring responsibilities,
-    -   Expenditure, consumption, deprivation
-    -   Social attitudes, values, political opinions
-    -   Transport, mobility, and commuting patterns
-    -   Environmental behaviours, and related attitudes
+<!--     -   Family, partnerships, caring responsibilities, -->
+<!--     -   Expenditure, consumption, deprivation -->
+<!--     -   Social attitudes, values, political opinions -->
+<!--     -   Transport, mobility, and commuting patterns -->
+<!--     -   Environmental behaviours, and related attitudes -->
 
 ## Annual Survey of Hours and Earnings (ASHE)
 
@@ -390,7 +391,7 @@ Custom footer
   - repayment details and 
   - overseas assessment details.
   
-   Hospitalisation Episodes Data (SN8681)
+- Also  hospitalisation episodes data (SN8681)
 
 ## MCS: National Pupil Database {.smaller}
 - Data for children in England whose carer gave consent
@@ -402,8 +403,7 @@ Custom footer
   - School characteristics and school changes: N1 to year 11
   - Anonymised School identifiers (URN) and anonymised Local Education Authorities (LEA) 
 - Also available for Next Steps and Understanding Society
-
-  Ofsted Reports (SN9436)-
+- Also linked with Ofsted Reports data
 
 ## Vacancy Survey 2005-2025
 - Statutory, monthly survey of ~6,000 GB businesses
@@ -427,17 +427,17 @@ Custom footer
 
 - Statistical inference & non random samples 
 
-## Computational skills 
-- Non-survey  cleaning (Pandas, Tidyverse)
-- Web scrapping (Python/R)
-- API queries (social media app: X, Reddit...)
-- Pattern detection ie random forest
+## Emerging skills {.smaller}
+- Computational skills 
+  - Non-survey  cleaning (Pandas, Tidyverse)
+  - Web scrapping (Python/R)
+  - API queries (social media app: X, Reddit...)
+  - Pattern detection ie random forest
 
-## Regulatory knowlege
-
-- Data protection & GDPR - rpe;requisite <- UKDS Safe researcher
-- Departmental regulations in case of Governmental data
-- Institutional/procedural: ie how to engage with the matching interface 
+- Regulatory knowledge
+  - Data protection & GDPR - rpe;requisite <- UKDS Safe researcher
+  - Departmental regulations in case of Governmental data
+  - Institutional/procedural: ie how to engage with the matching interface 
  
 # 4. Who's who in the data integration landscape
 
