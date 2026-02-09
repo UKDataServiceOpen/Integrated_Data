@@ -25,6 +25,11 @@ format:
     auto-stretch: false
     fig-cap-location: top
     scrollable: true
+    title-slide-attributes:
+      data-background-image: pics/ukri.png
+      data-background-size: 15%
+      data-background-opacity: "1"
+      data-background-position: "50px 835px"
     logo: 
       path: "pics/UKDS_Logos_Col_Grey_300dpi.png"
       href: "https://ukdataservice.ac.uk"
@@ -50,8 +55,14 @@ filters:
   - EDINA, University of Edinburgh
   - University College London
 
-- 100+ staff
+- 90+ staff
 - Since 2012 (UKDA $\rightarrow$ 1967); curates national data since 2003
+
+::: footer
+
+Custom footer
+
+:::
 
 ## What we do
 
@@ -69,10 +80,10 @@ filters:
   - Cross-sectional: large government and academic surveys
   - Longitudinal: major studies following people over time
 
-- [International data:](https://ukdataservice.ac.uk/help/data-types/international-macrodata/) survey data, aggregate databases  
-- Census tables and individual data – current and historical
+- International data: survey data, [aggregate databases](https://ukdataservice.ac.uk/help/data-types/international-macrodata/)  
+- [Census tables and individual data](https://ukdataservice.ac.uk/learning-hub/census/resources/get-census-microdata/) – current and historical
 - Business microdata and administrative data
-- Qualitative data: multimedia files  and interview transcripts
+- [Qualitative data](https://discover.ukdataservice.ac.uk/QualiBank): multimedia files  and interview transcripts
 
 ## Our training
 
@@ -83,6 +94,44 @@ filters:
 5. [Helpdesk](https://beta.ukdataservice.ac.uk/help) for individual data queries
 6. Check out our [YouTube channel](https://www.youtube.com/ukdataservice)
 
+## Test {.smaller}
+
+::::::{.columns}
+
+:::::{.column width="33%"}
+- Data management planning: sharing, archiving and preserving data​
+- Anonymisation and licence/access frameworks​
+- Documentation and metadata standards​
+- Ethical and legal considerations
+
+:::::
+
+:::::{.column width="33%"}
+- Data discovery​
+- How to access data​
+- Safe Researcher Training for the most confidential data 
+
+:::::
+
+:::::{.column width="33%"}
+- Introductions to datasets: ​
+- Datasets e.g Census, LFS​
+- Data types e.g Surveys​
+- Substantive themes e.g Crime​
+- Evaluating data for research ​
+- Preparing data/data handling​
+- Basic data analysis skills​
+- Basic software/tools​
+- Teaching with data​
+- User conferences​
++ Computational Social Science​
+
++ Reproducible research​
+
+:::::
+
+::::::
+
 
 # 2. Why a webinar series on data linkage?
 
@@ -91,107 +140,122 @@ filters:
 
 - Once upon a time: census and surveys (lots of them!)
 - Emerging kind of data in the past 20 years
-  1. Admin data
-  2. Digital trace
+  1. Administrative data
+  2. Digital trace data (i.e. social media, web...)
   3. Smart data
 
   <!-- - ... -->
 
 - 2 and 3: genuinely new data 
-- 1: Enabled by  digitalisation of existing records $\longrightarrow$ greater availability
-- Increased demand  for data-based insights: the monitored self
+- 1: Digitalisation of records  $\longrightarrow$ greater availability
+- Increased demand  for personal insights: [the Monitored Self](https://link.springer.com/chapter/10.1007/978-3-031-69944-3_8)
 - Potential for new research avenues at a lower cost... 
 
-## Mutation of the survey landscape
 
-- Surveys are costly $\longleftarrow$ increased budgetary constraints
-- Surveys have become costlier to administer:
+## Growing role of non-survey data {.smaller}
+ 
+- Why interest is growing
+  - New and previously unavailable measurements
+  - Large scale, high frequency, low marginal cost
+  - Particularly in social epidemiology and socio-economic research
+  - Attractiveness of 'harder' type of data
 
-  - People are harder to reach
-  - Refusals are increasing
-  - Costs increase: ie larger issued sample, incentives
+ 
+- But...
+  - Collected for administrative purposes, not research
+  - Selective coverage and population exclusions
+  - Measurement error, changing definitions, policy artefacts
+  - Limited socio-demographic and subjective information
 
-- Rise of the online polls
-- Inherent limitation to the information contained in surveys
 
-## Growing interest for non-survey data
+## Surveys are changing... 
 
-- Previously unaccessible measurement
-- Attractiveness of 'harder' type of data
-- Especially in social epidemiology, socio-economic research
-- Measurement errors
-- Validation vs enhancement (Benzeval 2020)
-- Conversely - awareness of the narrow scope of non survey data
+- Rising costs under tighter budgets
+- Increasing fieldwork complexity
+- Recruitment challenges (reach, refusals, panel fatigue)
+- Alleviation comes at a cost:  larger samples, incentives
+- Growth of online and mixed-mode designs
+ 
+## ... But they remain essential:
+
+- Only source for attitudes, beliefs, motivations, well-being
+- Rich socio-demographic information not captured elsewhere: detailed occupation, social class, ethnicity
+- Theory-driven measurements and validated instruments (ex: GHQ)
+- Only tested tool for population representative data, hard to reach groups and subgroup analysis
+
 
 ## Increasing number of  actors
-
-- Large data producers: CLS; Understanding Society; ONS
-- Linkage intermediaries: LLC, ADR, SAIL
+- Large data producers: CLS; ISER; ONS; government departments
+- Linkage intermediaries: LLC, ADR, SAIL; SDR
 - Data curator: UKDS
+- Other consortiums: CLOSER
 - Government departments; health and education providers
-- $\longrightarrow$ not always easy for researchers and analysts to navigate
+- $\longrightarrow$ not always easy for researchers and analysts to navigate the landscape
 
-## Skills needs
+## Skills needs {.smaller}
 
+- Blurring boundary between computational methods and survey research
 - Existing basic skills
   - Individual and  aggregate merging
 
-- Mobilising more advanced ones:
+- Managing new types of data
   - Web/social media scrapping via API
   - Data cleaning/processing
   - Probability matching
-  - Managing new types of data
-  - Blurring boundary between CSS and survey research
-  - Non random surveys inference
-- Navigating an increasingly complex  regulatory framework
+  - Inference and non random surveys
+- Navigating the increasingly complex  regulatory framework
 
 ## Conclusion
 
-- Complexification of the data provision landscape
-- Budgetary pressures on traditional data
-- Greater opacity for non experts
-- Need to clarify and adapt the skills training supply
-- Still limited practice and availability
+- Budgetary pressures on survey data
+- Wealth of cheaper, but narrowly focused, often unrepresentative new forms of data
+- Complexification of the data provision landscape: increased opacity for non experts
+- Need to  adapt the skills training/capacity building
+- Data integration enables validation and enhancement of both kinds of data  (Benzeval 2020)
+- Linkage is still limited (but growing)  practice and few linked datasets are available for secondary research
+
 
 
 # 2. Exploring <br>  integrated data
 
-## Working definition
+## Working definition {.smaller}
 
 - Combining different sources of data ie:
-
   - Survey data $\leftrightsquigarrow$ survey data
   - Survey data $\leftrightsquigarrow$ non survey data
   - Non survey data $\leftrightsquigarrow$  non survey data
-- With a shared unit of obs. (individual, household, area...)
+- That include  a shared unit of obsservation (individual, household, area...)
 - ... In a coherent way in order to:
   - Validate or 
   - .. enhance the original data
 - Bidirectional
 
-## Validation  (Whiffen et al 2005)
+## Validation  (Whiffen et al 2005) {.smaller}
 
 - Effectiveness of  population health surveys for estimating prevalence of chronic conditions
 - Reliability of survey-based prevalence estimates for chronic diseases is unclear 
 - Data linkage  to validate prevalence of selected chronic conditions:
     - Angina, myocardial infarction, heart failure, and asthma.
-- Link Welsh health Survey to clinical data
-- Secure Anonymised Information Linkage (SAIL) Databank.
+- Link 11,323 adults from the 2013 and 2014 Welsh Health Survey to clinical data
+- Secure Anonymised Information Linkage (SAIL) Databank
 - Results: depends on condition:
-  - Less agreement for cardiovascular
+  - Less agreement for cardiovascular, better for asthma
   - Potentially cheaper
   - Difficulty
 
-## Enhancement example
+## Enhancing surveys with social media data
 
-- Many such examples
-- Can be from survey or external data source
-- Example 1 DIGISURVOR: Digital data  $\longleftarrow$ survey data
+- Increasing usage of linked survey and social media data
+- Typical example: asking survey respondents to have their SM behaviour tracked
+- Potentially reduce the cost of the survey
+- Subject to consent: representativeness issues
+- Success depend on the app, gendeer, etc..
+- [DIGISURVOR]() project for an exemple of current research
+
 
 # Kinds of data linked to survey data
 
-## Administrative data 
-- In the UK: Digital Economy Act 2017
+## Administrative data {.smaller}
 - Usually arising from the interaction between:
     - An organisation (typically  public body)...
     - ... the unit for which records are produced (ie people)
@@ -201,6 +265,9 @@ filters:
   - Health records, educational transcripts
   - Government records: benefits, earnings/income
   - Financial reports 
+- In the UK: Digital Economy Act 2017:
+
+  "... de-identified1 data from government service providers, excluding NHS data, as part of their day-to-day functions, may be shared for public good research"
 
 # Examples
 
@@ -277,7 +344,7 @@ filters:
 
 # Which survey data are most commonly  linked?
 
-## Linked social surveys (1)
+## Linked survey data: in theory
 
 -   Depends on:
 
@@ -287,7 +354,7 @@ filters:
     -   Means available from the data producer
 
 
-## Linked social surveys (2)
+## ... And in practice
 
 -   Major longitudinal studies:
 
@@ -418,11 +485,39 @@ filters:
 - Provides access to (mostly) health-related admin data
 - Enables data linkage between some of these to accredited researchers
 
-## References {.small}
+## References {.smaller}
+Grant, P. (2024) [The Monitored Self In: The Virtual Hospital](https://doi.org/10.1007/978-3-031-69944-3_8) Springer, Cham.
 
-Whiffen, T; Akbari, A ; Paget, T ; Lowe, S; Lyons, R (2020) How effective are population health surveys for estimating prevalence of chronic conditions compared to anonymised clinical data?, INTERNATIONAL JOURNAL OF POPULATION DATA SCIENCE (IJPDS)  Vol 5:1 
+Silber, H., Breuer, J., Beuthner, C., Gummer, T., Keusch, F., Siegers, P., ... Weiß, B. (2022). [Linking Surveys and Digital Trace Data: Insights From two Studies on Determinants of Data Sharing Behaviour](https://doi.org/10.1111/rssa.12954) Journal of the Royal Statistical Society, Series A (Statistics in Society), 185(Suppl. 2), 387-407. 
 
-# 5. Who can link data and how? 
+Whiffen, T; Akbari, A ; Paget, T ; Lowe, S; Lyons, R (2020) [How effective are population health surveys for estimating prevalence of chronic conditions compared to anonymised clinical data?](https://doi.org/10.23889/ijpds.v5i1.1151), INTERNATIONAL JOURNAL OF POPULATION DATA SCIENCE (IJPDS)  Vol 5:1 
+
+# 5. Data linkage at UKDS: roles, routes, and researcher options
+
+## The UK Data Service and data linkage: <br> core principles
+
+- UKDS does not create linkages or integrate data
+- Linked data are created by data owners or processors
+- UKDS negotiates access to these data collections and makes them
+research-ready and safely accessible
+- The type of linkage researchers can undertake depends on:
+  - the access level (Open / Safeguarded / Controlled)
+  - the presence or absence of identifiers
+
+
+## What researchers can do in UKDS SecureLab {.smaller}
+- Researchers can:
+  - Access more granular variables​
+  - Create derived or contextual linkages, for example:​  
+  - Environmental or pollution deciles based on postcode-derived measures​
+  - Area-level deprivation or service access indicators​
+  - Import external datasets subject to depositor approval​
+
+- Key considerations:
+  - UKDS SecureLab does not host direct identifiers
+  - Researchers cannot create linkage spines or perform identifier-based
+matching​
+  - All linkage activity must be explicitly approved as part of the project
 
 # 6. How to access linked data at UKDS
 

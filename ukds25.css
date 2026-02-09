@@ -1,5 +1,19 @@
 .reveal 
 
+
+.title-slide .author:after {
+  content: url('../pics/ukri.png') ;
+  display: block;
+
+
+    display: block;
+    content: "";
+    height: 200px;
+    background: transparent url('pics/ukri.png') no-repeat;
+  
+
+}
+
 .slide-logo{
   display: block;
   position: fixed;
@@ -7,11 +21,12 @@
   right: unset !important;
   top: 5px;
   left: 12px;
-  height: 50px !important;
+  height: 60px !important;
   width: unset  !important;
   max-width: unset !important;
   max-height: unset !important;
 }
+
 
 /*
 .left {
@@ -66,3 +81,13 @@
   list-style-type: circle;
 }
 
+
+.reveal .slides section:not(.title) h1::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  background-image: url('pics/edu.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
