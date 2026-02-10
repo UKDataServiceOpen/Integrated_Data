@@ -158,14 +158,14 @@ Custom footer
 <!-- - $\longrightarrow$ not always easy for researchers and analysts to navigate the landscape -->
 
 
-## In a nutshell
+## In a nutshell {.smaller}
 
 - Budgetary pressures on survey data
 - Wealth of cheaper, but narrowly focused, often unrepresentative new forms of data
 - Data integration is a win-win: potential to improve (validation and enhancement) of both kinds of data  (Benzeval 2020)
 - At the same time:
-  - Increased complexity of the data provision landscape: especially  for non experts
-  - Linkage is still limited (but growing)  practice and few linked datasets are available for secondary research
+  - Linkage is still a limited (but growing)  practice and few linked datasets are available for secondary research
+  - Increased complexity of the data provision landscape
   - Need to  adapt the skills training/capacity building
 
 
@@ -188,7 +188,8 @@ Custom footer
 
 ## Validation  example {.smaller}
 
-- How reliable are population survey-based  estimates of chronic diseases? 
+- Whiffen et al (2020) [How effective are population health surveys for estimating prevalence of chronic conditions compared to anonymised clinical data?](https://doi.org/10.23889/ijpds.v5i1.1151)
+- Reliability of population survey-based  estimates of chronic diseases 
 - Data linkage to validate prevalence of selected chronic conditions:
     - Angina, myocardial infarction, heart failure, and asthma
 - Link 11,323 adults from the 2013 and 2014 Welsh Health Survey to clinical data
@@ -217,18 +218,6 @@ Custom footer
   "*... de-identified data from government service providers, excluding NHS data, as part of their day-to-day functions, may be shared for public good research*"
 
 
-## Hospital episodes data
-
--   NHS data about all hospital admissions in England.
--   Four datasets:
-    -   Episodes of using: Accident and Emergency, Admitted Patient Care, Adult Critical Care, Outpatients
-    -   Mostly available for 2007/9-2023
--   Data on diagnosis, maternity, mortality, mental health, treatment’s length, deprivation etc.
--   Available for the NCDS Birth Cohort
-
-::: aside
-*More information*: [Kerry- Barnard et al (2025)](https://doc.ukdataservice.ac.uk/doc/8697/mrdoc/pdf/ncds_hes_user_guide_2025_v3.pdf)
-:::
 
 <!-- ## School inspection data -->
 
@@ -265,12 +254,13 @@ Custom footer
 
 ## Linking survey with digital trace data
 
+- Arising from our presence online (web or apps)
 - Increasing usage of linked survey and social media data
-- Typical example: asking survey respondents to have their SM behaviour (digital trace) tracked
+- Typical example: asking survey respondents to have their SM behaviour tracked
 - May  reduce the cost of the survey (fewer questions to ask)
-- Subject to consent: representativeness issues
-- Consent depend on the app, gender, etc..
-- [DIGISURVOR](https://digisurvor.github.io/main/) project for an exemple of current research
+- Subject to user consent: representativeness issues
+- Consent depends on the app, gender, etc..
+- [DIGISURVOR](https://digisurvor.github.io/main/) project for an example of current research
   - Linkage of existing survey data with online participation in political discussions
   
 
@@ -412,6 +402,19 @@ Custom footer
 - Via linkage ISCO code (industrial activities classification), number of employees
 -  Additional linkage via IDBR possible - including ASHE 
 
+## Hospital episodes data and the NCDS
+
+-   NHS data about all hospital admissions in England.
+-   Four datasets:
+    -   Episodes of using: Accident and Emergency, Admitted Patient Care, Adult Critical Care, Outpatients
+    -   Mostly available for 2007/9-2023
+-   Data on diagnosis, maternity, mortality, mental health, treatment’s length, deprivation etc.
+-   Available for the NCDS Birth Cohort
+
+::: aside
+*More information*: [Kerry- Barnard et al (2025)](https://doc.ukdataservice.ac.uk/doc/8697/mrdoc/pdf/ncds_hes_user_guide_2025_v3.pdf)
+:::
+
 
 # 4. Data integration and skills requirements
 
@@ -440,11 +443,19 @@ Custom footer
  
 # 5. Who's who in the data integration landscape
 
+## Data producers 
+- Involved in data matching (ea consent management)
+- Data producers of the main longitudinal studies ie 
+  - Understanding Society (ISER)
+  - Main cohort studies (CLS)
+- Government departments and the ONS
+- Private sector organisations
+
+
 ## Administrative Data Research (ADR) 
 - Consortium of organisations, including the ONS, devolved governments and academic partners
 - Mission: 
-  - "link and open up de-identified  data 
-  - generated from people’s interactions with public services, 
+  - link and open up de-identified  administrative data 
   - making it securely available to accredited researchers.
 - Point of access for new data linkage within the  public sector and between the public sector and researchers  
 
@@ -456,7 +467,7 @@ Custom footer
   - Neighbourhood geographies
   - Address geographies
 
-- Planned: NHS Wales, Department for Work and Pensions, HM Revenue and Customs
+- In preparation: NHS Wales, Department for Work and Pensions, HM Revenue and Customs data
 
 <!-- ## UK Data service -->
 <!--  - Collection, curation and access to linked survey data -->
@@ -464,23 +475,19 @@ Custom footer
 <!--  - Curates some linked data -->
 <!--  - Trusted Research environment -->
 
-## Data producers 
-- Data producers of the main longitudinal studies ie 
-  - Understanding Society (ISER)
-  - Main cohort studies (CLS)
-- Involved in data matching (ea consent management)
-- Closer - coordination & cross studies harmonisation
-- Government departments and the ONS
-- Private sector organisartion
 
-## Other intermediaries
+## Other intermediaries (not exhaustive) {.smaller}
 - Smart Data Research UK
-  - Gathers
+  - Gathers smart data from producers: ie financial, energy data, smart device...  
   - Makes it available to the research community
   - Organised by kind of smart data
+
 - Secure Anonymised Information Linkage -SAIL
-  - Wales based, but data from across the UK, (mostly) health-related
+  - Wales based but provides also access to UK data, (mostly) health-related
   - Trusted Research Environment - TRE
+
+- CeLCIUS
+  - Census data linkage
 
 
 # 6. Data linkage at UKDS: roles, routes, and researcher options
@@ -512,11 +519,11 @@ Custom footer
 
 ## Conclusion so far
 
-- Potential for exciting lots of exciting new research, some of which is already happening
-- Dynamic landcape, changes in the role of actors may take place
+- Potential for  exciting new research, some of which is already happening
+- Dynamic landscape, changes in the role of actors likely to take place
 - Need for investigating capacity building/skills training
-- Please follow us for additional webinars on digital trace, administrative and smart data
 - Kind of data  left out for now: Census (longitudinal & administrative linkage)
+- Please follow us for additional webinars on digital trace, administrative and smart data
 
 
 
