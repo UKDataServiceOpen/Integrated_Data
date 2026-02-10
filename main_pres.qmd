@@ -1,7 +1,7 @@
 ---
 title: "Overview of survey data linkage"
 author: 
-  name: Pierre Walthéry
+  name: Pierre Walthéry, Iraklis Kyritsis, Christina Magder
 institute: UK Data Service
 
 date: "February  2026"
@@ -105,7 +105,7 @@ Custom footer
 
 # 1. Why a webinar series on data linkage?
 
-## Changing data landscape
+## The world is changing
 
 
 - Once upon a time: mostly census and surveys (lots!)
@@ -124,31 +124,29 @@ Custom footer
 - Why interest is growing
   - New and previously unavailable measurements
   - Large scale, high frequency, low marginal cost
-  - Particularly in social epidemiology and socio-economic research
-  - Attractiveness of 'harder' type of data
+  - Attractiveness of 'harder' type of data...
+   - ... Particularly in social epidemiology and socio-economic research
 
+ - But:
+    - Collected for administrative purposes, not research
+    - Selective coverage $\longrightarrow$ population exclusions
+    - Measurement error, changing definitions, policy artefacts
+    - Limited socio-demographic and subjective information
+
+
+## The survey landscape {.smaller}
+
+- Data collection challenges... 
+  - Rising costs under tighter budgets
+  - Recruitment is harder (reach, refusals, panel fatigue)
+  - Alleviation comes at a cost:  larger samples, incentives
+  - Growth of online and mixed-mode designs
  
-- But...
-  - Collected for administrative purposes, not research
-  - Selective coverage and population exclusions
-  - Measurement error, changing definitions, policy artefacts
-  - Limited socio-demographic and subjective information
-
-
-## Surveys are changing... 
-
-- Rising costs under tighter budgets
-- Increasing fieldwork complexity
-- Recruitment challenges (reach, refusals, panel fatigue)
-- Alleviation comes at a cost:  larger samples, incentives
-- Growth of online and mixed-mode designs
- 
-## ... But they remain essential:
-
-- Only source for attitudes, beliefs, motivations, well-being
-- Rich socio-demographic information not captured elsewhere: detailed occupation, social class, ethnicity
-- Theory-driven, validated instruments (ex: GHQ)
-- Only tested tool for population representative data, hard to reach groups and subgroup analysis
+- ... But they remain essential:
+  - Only source for attitudes, beliefs, motivations, well-being
+  - Rich socio-demographic information not captured elsewhere: detailed occupation, social class, ethnicity
+  - Theory-driven, validated instruments (ex: GHQ)
+  - Only tested tool for population representative data, hard to reach groups and subgroup analysis
 
 
 <!-- ## Increasing number of  actors -->
@@ -160,14 +158,15 @@ Custom footer
 <!-- - $\longrightarrow$ not always easy for researchers and analysts to navigate the landscape -->
 
 
-## Conclusion so far
+## In a nutshell
 
 - Budgetary pressures on survey data
 - Wealth of cheaper, but narrowly focused, often unrepresentative new forms of data
-- Data integration enables validation and enhancement of both kinds of data  (Benzeval 2020)
-- Increased complexity of the data provision landscape: especially  for non experts
-- Linkage is still limited (but growing)  practice and few linked datasets are available for secondary research
-- Need to  adapt the skills training/capacity building
+- Data integration is a win-win: potential to improve (validation and enhancement) of both kinds of data  (Benzeval 2020)
+- At the same time:
+  - Increased complexity of the data provision landscape: especially  for non experts
+  - Linkage is still limited (but growing)  practice and few linked datasets are available for secondary research
+  - Need to  adapt the skills training/capacity building
 
 
 
@@ -280,25 +279,25 @@ Custom footer
 
 - Fuzzier definition
   - Digital records held by private sector organisations
-  - Measured data
+  - Often but not always device-recorded data
   - Not traditionally associated with social research
   - Flow/ quasi real time data
 - Examples:
-   - Data from fitness trackers, smartwatches, loyalty cards, purchase records and in-car smart tech: health and mobility behaviiour    
-   - Financial transactions by  businesses and individuals < banks, supermarkets: financial behaviour and resilience
-   - Energy network data (distribution & consumption); EV usage and charging; smart meter readings: building/households energy consumptions; net zero targets
+   - Data from fitness trackers, smart watches, and in-car smart tech $\longrightarrow$ health and mobility research    
+   - Financial transactions by  businesses and individuals loyalty cards, purchase records  < banks, supermarkets$\longrightarrow$ financial behaviour and resilience
+   - Energy network data (distribution & consumption); EV usage and charging; smart meter readings $\longrightarrow$  building/households energy consumptions$\longrightarrow$ net zero targets
 
 
 
-## (Bio measurement data)
+<!-- ## (Bio measurement data) -->
 
-- Collected as part large scale longitudinal surveys (often via nurse visit):
+<!-- - Collected as part large scale longitudinal surveys (often via nurse visit): -->
 
-  - Blood sample
-  - Epigenetic data
-  - Cortisol levels
-  
-- Is this integrated data?
+<!--   - Blood sample -->
+<!--   - Epigenetic data -->
+<!--   - Cortisol levels -->
+
+<!-- - Is this integrated data? -->
 
 
 # 3. Which survey data are most commonly  linked?
@@ -331,10 +330,10 @@ Custom footer
 ## Birth cohort studies
 
 -   Follow a sample of individuals from birth onwards
-- Four so far: people born in 1958(NCDS), 1970(BCS), 2000 (MCS), 2026 (Generation New Era)
+- Four so far: people born in 1958, 1970, 2000, 2026
 -   Millenium Cohort Study (MCS)
     -   \~ 19,000 children  (born between June 2001 and Jan 03)
-    -   7 'sweeps': 9 months then at 3, 5, 7, 11, 14, years old
+    -   7 'sweeps': 9 months then at ages 3, 5, 7, 11, 14, 17, 23
     -   Parent and child interviews
     -   Focuses on education, skills and health, truancy, cognitive ability, biological measurements 
     -   ... Traditional socio-economic and demographic data
@@ -369,14 +368,14 @@ Custom footer
 
 ## Annual Survey of Hours and Earnings (ASHE)
 
-- Produced by the Office for National Statistics
-- Large sample, drawn from NI records: 135,000-190,000 individuals per year
+- Produced yearly by the Office for National Statistics
+- Sample drawn from NI records: typical n=135-190,000 
 - Small number of variables  
 - Very precise source of information for pay components and working hours
 - Can be linked to other business surveys, as well as  PAYE and pensions data
 - Some data available via  [Administrative Data Research UK](https://www.adruk.org/data-access/flagship-datasets/annual-survey-of-hours-and-earnings-linked-to-his-majestys-revenue-and-customs-england-scotland-and-wales/) 
 
-# Integrated datasets curated by UKDS
+# A sample of the integrated datasets curated by UKDS
  
 ## Next Steps: Student Loans Data
 - Data on higher education loans for Next Steps participant 
@@ -386,16 +385,16 @@ Custom footer
 - Information about:
 
   - Full Next Steps dataset + 
-  - applications for student finance,
-  - payment transactions posted to participant's accounts, 
-  - repayment details and 
-  - overseas assessment details.
+
+    - applications for student finance,
+    - payment transactions & repayment details (via respondents' accounts), 
+    - Overseas assessment.
   
-- Also  hospitalisation episodes data (SN8681)
+- Also hospitalisation episodes data (SN8681)
 
 ## MCS: National Pupil Database {.smaller}
 - Data for children in England whose carer gave consent
-- Data from  National Pupil Database and the Pupil Level Annual School Census.
+- Linked to National Pupil Database and the Pupil Level Annual School Census.
 
   - Pupil level school census data from N1 to year 11 (2016/17)
   - KS1, KS2, KS4 and KS5 results (Years 2, 6, 11, 12 and 13)
@@ -423,7 +422,7 @@ Custom footer
 
 - Probabilistic matching
    - When separate ids
-  - When data is not clean
+   - When data is not clean
 
 - Statistical inference & non random samples 
 
@@ -435,11 +434,11 @@ Custom footer
   - Pattern detection ie random forest
 
 - Regulatory knowledge
-  - Data protection & GDPR - rpe;requisite <- UKDS Safe researcher
+  - Data protection & GDPR - prerequisite $\longrightarrow$ UKDS Safe researcher training
   - Departmental regulations in case of Governmental data
-  - Institutional/procedural: ie how to engage with the matching interface 
+  - Institutional/procedural: ie how to engage with the data matching intermediaries  
  
-# 4. Who's who in the data integration landscape
+# 5. Who's who in the data integration landscape
 
 ## Administrative Data Research (ADR) 
 - Consortium of organisations, including the ONS, devolved governments and academic partners
@@ -459,11 +458,11 @@ Custom footer
 
 - Planned: NHS Wales, Department for Work and Pensions, HM Revenue and Customs
 
-## UKDS
- - Collection, curation and access to linked survey data
- - Main gateway for secondary survey data analysis
- - Curates some linked data
- - Trusted Research environment
+<!-- ## UK Data service -->
+<!--  - Collection, curation and access to linked survey data -->
+<!--  - Main gateway for secondary survey data analysis -->
+<!--  - Curates some linked data -->
+<!--  - Trusted Research environment -->
 
 ## Data producers 
 - Data producers of the main longitudinal studies ie 
@@ -472,12 +471,16 @@ Custom footer
 - Involved in data matching (ea consent management)
 - Closer - coordination & cross studies harmonisation
 - Government departments and the ONS
+- Private sector organisartion
 
-## Secure Anonymised Information Linkage -SAIL
-- Wales based, but data from across the UK
-- Trusted Research Environment - TRE
-- Provides access to (mostly) health-related admin data
-- Enables data linkage between some of these to accredited researchers
+## Other intermediaries
+- Smart Data Research UK
+  - Gathers
+  - Makes it available to the research community
+  - Organised by kind of smart data
+- Secure Anonymised Information Linkage -SAIL
+  - Wales based, but data from across the UK, (mostly) health-related
+  - Trusted Research Environment - TRE
 
 
 # 6. Data linkage at UKDS: roles, routes, and researcher options
@@ -506,6 +509,16 @@ Custom footer
   - All linkage activity must be explicitly approved as part of the project
 
 # 7. How to access linked data at UKDS
+
+## Conclusion so far
+
+- Potential for exciting lots of exciting new research, some of which is already happening
+- Dynamic landcape, changes in the role of actors may take place
+- Need for investigating capacity building/skills training
+- Please follow us for additional webinars on digital trace, administrative and smart data
+- Kind of data  left out for now: Census (longitudinal & administrative linkage)
+
+
 
 
 ## References {.smaller}
